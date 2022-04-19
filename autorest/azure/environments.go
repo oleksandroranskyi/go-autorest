@@ -34,7 +34,7 @@ const (
 var environments = map[string]Environment{
 	"AZURECHINACLOUD":        ChinaCloud,
 	"AZUREGERMANCLOUD":       GermanCloud,
-	"AZUREPUBLICCLOUD":       PublicCloud,
+	"AZURECLOUD":       PublicCloud,
 	"AZUREUSGOVERNMENTCLOUD": USGovernmentCloud,
 }
 
